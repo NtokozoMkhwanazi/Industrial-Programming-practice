@@ -1,19 +1,13 @@
 # Automation Logic & Industrial Systems Simulator
 
-> C++17 implementations of the low-level control logic that drives a modern
+> C++ implementations of the low-level control logic that drives a modern
 > process plant — a closed-loop **PID temperature controller** and a
 > safety-critical **finite state machine** for a conveyor routing system.
-> Both are written from first principles to mirror how real PLC/SCADA logic
+> Both are written from first principles to understand PLC/SCADA logic
 > is built, and both ship with automated unit tests.
 
-## Operational Context
+**Note** this project is still in early development stages but it wishes to achieve industrial standards.
 
-This repository contains a suite of software applications designed to simulate
-low-level **Industrial Automation Logic (PLC architectures)** and **Real-Time
-Process Control** systems, built using **C++17** and Python.
-
-These are not toy programs — they implement the *same algorithmic building
-blocks* found on the steel-mill floor:
 
 * A **PID control loop** that regulates a furnace to an exact setpoint by
   manipulating a heater valve, complete with integrator anti-windup and
